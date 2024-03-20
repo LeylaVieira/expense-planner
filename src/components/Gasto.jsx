@@ -60,6 +60,7 @@ const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
                 <div className="gasto sombra">
                     <div className="contenido-gasto">
                         <img
+                            className='icono-gasto'
                             src={diccionarioIconos[categoria]}
                             alt="Icono gasto"
                         />
